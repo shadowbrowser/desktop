@@ -1,0 +1,36 @@
+diff --git a/browser/components/customizableui/CustomizableUI.sys.mjs b/browser/components/customizableui/CustomizableUI.sys.mjs
+index b953d7d2c8fa7fe2d320bd7cb7af9aeeef0abc86..fc7326bcc9e0b36936302f51f071c489986c0e2d 100644
+--- a/browser/components/customizableui/CustomizableUI.sys.mjs
++++ b/browser/components/customizableui/CustomizableUI.sys.mjs
+@@ -6,6 +6,10 @@ import { XPCOMUtils } from "resource://gre/modules/XPCOMUtils.sys.mjs";
+ import { AppConstants } from "resource://gre/modules/AppConstants.sys.mjs";
+ import { SearchWidgetTracker } from "resource:///modules/SearchWidgetTracker.sys.mjs";
+ 
++const { makeWidgetId } = ChromeUtils.import(
++  'resource://gre/modules/ExtensionCommon.jsm'
++).ExtensionCommon
++
+ const lazy = {};
+ 
+ ChromeUtils.defineESModuleGetters(lazy, {
+@@ -25,6 +29,8 @@ ChromeUtils.defineLazyGetter(lazy, "gWidgetsBundle", function () {
+   return Services.strings.createBundle(kUrl);
+ });
+ 
++const kUBlockOriginID = 'uBlock0@raymondhill.net';
++
+ const kDefaultThemeID = "default-theme@mozilla.org";
+ 
+ const kSpecialWidgetPfx = "customizableui-special-";
+@@ -305,9 +311,10 @@ var CustomizableUIInternal = {
+         ? null
+         : "home-button",
+       "spring",
++      `${makeWidgetId(kUBlockOriginID)}-browser-action`,
+       "urlbar-container",
+       "spring",
+-      "save-to-pocket-button",
++      // "save-to-pocket-button",
+       "downloads-button",
+       AppConstants.MOZ_DEV_EDITION ? "developer-button" : null,
+       "fxa-toolbar-menu-button",

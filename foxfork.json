@@ -9,5 +9,77 @@
   },
   "buildOptions": {
     "windowsUseSymbolicLinks": false
+  },
+  "addons": {
+    "ublock": {
+      "id": "uBlock0@raymondhill.net",
+      "platform": "url",
+      "url": "https://github.com/gorhill/uBlock/releases/download/1.62.0/uBlock0_1.62.0.firefox.signed.xpi"
+    }
+  },
+  "brands": {
+    "stable": {
+      "backgroundColor": "#2B2A33",
+      "brandShorterName": "Securefox",
+      "brandShortName": "Securefox Browser",
+      "brandFullName": "Securefox Browser",
+      "release": {
+        "displayVersion": "1.0.0",
+        "github": {
+          "repo": "binary-blazer/securefox"
+        },
+        "x86": {
+          "windowsMar": "windows.mar",
+          "macosMar": "macosIntel.mar",
+          "linuxMar": "linux.mar"
+        }
+      }
+    },
+    "beta": {
+      "backgroundColor": "#2B2A33",
+      "brandShorterName": "Securefox",
+      "brandShortName": "Securefox Browser",
+      "brandFullName": "Securefox Browser Beta",
+      "release": {
+        "displayVersion": "1.0.0-b.0",
+        "github": {
+          "repo": "binary-blazer/securefox"
+        },
+        "x86": {
+          "windowsMar": "windows.mar",
+          "macosMar": "macosIntel.mar",
+          "linuxMar": "linux.mar"
+        }
+      }
+    },
+    "alpha": {
+      "backgroundColor": "#2B2A33",
+      "brandShorterName": "Securefox",
+      "brandShortName": "Securefox Browser",
+      "brandFullName": "Securefox Browser Alpha",
+      "release": {
+        "displayVersion": "1.0.0-a.0",
+        "github": {
+          "repo": "binary-blazer/securefox"
+        },
+        "x86": {
+          "windowsMar": "windows.mar",
+          "macosMar": "macosIntel.mar",
+          "linuxMar": "linux.mar"
+        }
+      }
+    }
+  },
+  "license": {
+    "ignoredFiles": [
+      ".*\\.json"
+    ],
+    "licenseType": "MPL-2.0"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "uBlock0@raymondhill.net",
+      "strict_min_version": "60.0"
+    }
   }
 }

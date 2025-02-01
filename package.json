@@ -24,7 +24,7 @@
     "email": "me@binaryblazer.me",
     "url": "https://binaryblazer.me"
   },
-  "license": "Apache-2.0",
+  "license": "MPL-2.0",
   "devDependencies": {
     "foxfork": "^1.0.0-rc.4"
   }

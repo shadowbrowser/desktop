@@ -1,0 +1,27 @@
+diff --git a/browser/app/profile/firefox.js b/browser/app/profile/firefox.js
+index 1db5c83a56b98b128b656c090f6e0868269484e6..3cbf3f8243214db44736000223baad710bbc5778 100644
+--- a/browser/app/profile/firefox.js
++++ b/browser/app/profile/firefox.js
+@@ -2536,9 +2536,9 @@ pref("browser.migrate.preferences-entrypoint.enabled", true);
+ 
+ pref("extensions.pocket.api", "api.getpocket.com");
+ pref("extensions.pocket.bffApi", "firefox-api-proxy.cdn.mozilla.net");
+-pref("extensions.pocket.bffRecentSaves", true);
+-pref("extensions.pocket.enabled", true);
+-pref("extensions.pocket.oAuthConsumerKey", "40249-e88c401e1b1f2242d9e441c4");
++pref("extensions.pocket.bffRecentSaves", false);
++pref("extensions.pocket.enabled", false);
++pref('extensions.pocket.oAuthConsumerKey', '40249-e88c401e1b1f2242d9e441c4')
+ pref("extensions.pocket.oAuthConsumerKeyBff", "94110-6d5ff7a89d72c869766af0e0");
+ pref("extensions.pocket.site", "getpocket.com");
+ 
+@@ -3281,3 +3281,8 @@ pref("toolkit.contentRelevancy.enabled", false);
+ pref("toolkit.contentRelevancy.ingestEnabled", false);
+ // Pref to enable extra logging for the content relevancy feature
+ pref("toolkit.contentRelevancy.log", false);
++
++user_pref(
++  'browser.newtabpage.activity-stream.section.highlights.includePocket',
++  false
++);
+\ No newline at end of file
