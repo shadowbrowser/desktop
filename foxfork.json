@@ -1,0 +1,13 @@
+{
+  "name": "Securefox",
+  "vendor": "Jonas F. Franke",
+  "appId": "com.binaryblazer.securefox",
+  "binaryName": "securefox",
+  "version": {
+    "product": "firefox",
+    "version": "134.0.2"
+  },
+  "buildOptions": {
+    "windowsUseSymbolicLinks": false
+  }
+}

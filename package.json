@@ -1,0 +1,31 @@
+{
+  "name": "securefox",
+  "version": "1.0.0",
+  "description": "Firefox but without tracking and built in adblock by uBlock",
+  "scripts": {
+    "download": "foxfork download",
+    "build": "foxfork build",
+    "build:ui": "foxfork build --ui",
+    "bootstrap": "foxfork bootstrap",
+    "import": "foxfork import",
+    "start": "foxfork run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "firefox",
+    "securefox",
+    "browser",
+    "web",
+    "privacy",
+    "security"
+  ],
+  "author": {
+    "name": "Jonas F. Franke",
+    "email": "me@binaryblazer.me",
+    "url": "https://binaryblazer.me"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "foxfork": "^1.0.0-rc.4"
+  }
+}
