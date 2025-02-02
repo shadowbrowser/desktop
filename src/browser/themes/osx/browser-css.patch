@@ -1,12 +1,18 @@
 diff --git a/browser/themes/osx/browser.css b/browser/themes/osx/browser.css
-index b1d08b2cebb835b9cc589096efdc7ca23494fb59..507c954c78bdcfeefb4762f99538e916960f0525 100644
+index b1d08b2cebb835b9cc589096efdc7ca23494fb59..1ddda06356fd2c0f535cfed19a7beee9d60838b6 100644
 --- a/browser/themes/osx/browser.css
 +++ b/browser/themes/osx/browser.css
-@@ -2,6 +2,7 @@
+@@ -2,8 +2,13 @@
   * License, v. 2.0. If a copy of the MPL was not distributed with this
   * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
  
 +@import url("../custom/macos/macos.inc.css");
  @import url("chrome://browser/skin/browser-shared.css");
  
++@namespace html url("http://www.w3.org/1999/xhtml");
++ 
++%include ../custom/macos/macos.inc.css
++
  :root {
+   --arrowpanel-field-background: light-dark(rgba(249, 249, 250, .3), rgba(12, 12, 13, .3));
+ }

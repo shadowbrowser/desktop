@@ -1,8 +1,8 @@
 diff --git a/browser/themes/windows/browser.css b/browser/themes/windows/browser.css
-index 0d74f7cefe75a7eab75277144a99d56801484ef6..7f7355e94a70070ee9edd78013aae217defb06df 100644
+index 0d74f7cefe75a7eab75277144a99d56801484ef6..412a8299e1fa2f418b5867a04b037b8f76cbefd1 100644
 --- a/browser/themes/windows/browser.css
 +++ b/browser/themes/windows/browser.css
-@@ -2,6 +2,7 @@
+@@ -2,9 +2,14 @@
   * License, v. 2.0. If a copy of the MPL was not distributed with this
   * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
  
@@ -10,3 +10,10 @@ index 0d74f7cefe75a7eab75277144a99d56801484ef6..7f7355e94a70070ee9edd78013aae217
  @import url("chrome://browser/skin/browser-shared.css");
  @import url("chrome://browser/skin/contextmenu.css");
  
++@namespace html url("http://www.w3.org/1999/xhtml");
++ 
++%include ../custom/windows/windows.inc.css
++
+ #menubar-items {
+   flex-direction: column; /* for flex hack */
+   justify-content: normal; /* align the menubar to the top also in customize mode */

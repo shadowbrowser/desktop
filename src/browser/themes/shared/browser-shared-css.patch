@@ -1,5 +1,5 @@
 diff --git a/browser/themes/shared/browser-shared.css b/browser/themes/shared/browser-shared.css
-index b4854731c08b2f463751bb907cb44130ee6b6d2a..70b3e16eb0e18439da3386c4823a39f64a9fc5e7 100644
+index b4854731c08b2f463751bb907cb44130ee6b6d2a..fc86227cefe668b3808e05e16a87917c50db580a 100644
 --- a/browser/themes/shared/browser-shared.css
 +++ b/browser/themes/shared/browser-shared.css
 @@ -2,6 +2,7 @@
@@ -10,3 +10,14 @@ index b4854731c08b2f463751bb907cb44130ee6b6d2a..70b3e16eb0e18439da3386c4823a39f6
  @import url("chrome://browser/skin/browser-colors.css");
  @import url("chrome://browser/skin/addons/extension-controlled.css");
  @import url("chrome://browser/skin/addons/unified-extensions.css");
+@@ -28,6 +29,10 @@
+ @import url("chrome://browser/skin/UITour.css");
+ @import url("chrome://browser/skin/formautofill-notification.css");
+ 
++@namespace html url("http://www.w3.org/1999/xhtml");
++ 
++%include ../custom/shared/shared.inc.css
++
+ :root,
+ body {
+   height: 100%;
