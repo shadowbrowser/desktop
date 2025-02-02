@@ -1,5 +1,5 @@
 {
-  "name": "securefox",
+  "name": "shadow",
   "version": "1.0.0",
   "description": "Firefox but without tracking and built in adblock by uBlock",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "keywords": [
     "firefox",
-    "securefox",
+    "shadow",
     "browser",
     "web",
     "privacy",
