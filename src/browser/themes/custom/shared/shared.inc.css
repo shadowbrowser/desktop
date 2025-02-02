@@ -1,0 +1,18 @@
+.tab-background {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+&:is([selected], [multiselected]) {
+    background-color: var(--toolbar-bgcolor);
+}
+
+.tab-background {
+    border-radius: 0px;
+}
+
+:root:not([privatebrowsingmode], [firefoxviewhidden]) :is(toolbarbutton, toolbarpaletteitem) ~ #tabbrowser-tabs, :root[privatebrowsingmode]:not([firefoxviewhidden]) :is(toolbarbutton:not(#firefox-view-button), toolbarpaletteitem:not(#wrapper-firefox-view-button)) ~ #tabbrowser-tabs {
+    border-inline-start: 0px;
+    padding-inline-start: 0px;
+    margin-inline-start: 0px;
+}

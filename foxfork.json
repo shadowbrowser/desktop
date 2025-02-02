@@ -1,8 +1,8 @@
 {
-  "name": "Securefox",
+  "name": "Praxive",
   "vendor": "Jonas F. Franke",
-  "appId": "com.binaryblazer.securefox",
-  "binaryName": "securefox",
+  "appId": "com.binaryblazer.praxive",
+  "binaryName": "praxive",
   "version": {
     "product": "firefox",
     "version": "134.0.2"
@@ -19,10 +19,10 @@
   },
   "brands": {
     "stable": {
-      "backgroundColor": "#2B2A33",
-      "brandShorterName": "Securefox",
-      "brandShortName": "Securefox Browser",
-      "brandFullName": "Securefox Browser",
+      "backgroundColor": "#161617",
+      "brandShorterName": "Praxive",
+      "brandShortName": "Praxive Browser",
+      "brandFullName": "Praxive Browser",
       "release": {
         "displayVersion": "1.0.0",
         "github": {
@@ -36,10 +36,10 @@
       }
     },
     "beta": {
-      "backgroundColor": "#2B2A33",
-      "brandShorterName": "Securefox",
-      "brandShortName": "Securefox Browser",
-      "brandFullName": "Securefox Browser Beta",
+      "backgroundColor": "#161617",
+      "brandShorterName": "Praxive",
+      "brandShortName": "Praxive Browser",
+      "brandFullName": "Praxive Browser Beta",
       "release": {
         "displayVersion": "1.0.0-b.0",
         "github": {
@@ -53,10 +53,10 @@
       }
     },
     "alpha": {
-      "backgroundColor": "#2B2A33",
-      "brandShorterName": "Securefox",
-      "brandShortName": "Securefox Browser",
-      "brandFullName": "Securefox Browser Alpha",
+      "backgroundColor": "#161617",
+      "brandShorterName": "Praxive",
+      "brandShortName": "Praxive Browser",
+      "brandFullName": "Praxive Browser Alpha",
       "release": {
         "displayVersion": "1.0.0-a.0",
         "github": {

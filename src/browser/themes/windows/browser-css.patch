@@ -1,0 +1,12 @@
+diff --git a/browser/themes/windows/browser.css b/browser/themes/windows/browser.css
+index 0d74f7cefe75a7eab75277144a99d56801484ef6..7f7355e94a70070ee9edd78013aae217defb06df 100644
+--- a/browser/themes/windows/browser.css
++++ b/browser/themes/windows/browser.css
+@@ -2,6 +2,7 @@
+  * License, v. 2.0. If a copy of the MPL was not distributed with this
+  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+ 
++@import url("../custom/windows/windows.inc.css");
+ @import url("chrome://browser/skin/browser-shared.css");
+ @import url("chrome://browser/skin/contextmenu.css");
+ 

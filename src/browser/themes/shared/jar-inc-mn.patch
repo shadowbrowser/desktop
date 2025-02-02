@@ -1,0 +1,13 @@
+diff --git a/browser/themes/shared/jar.inc.mn b/browser/themes/shared/jar.inc.mn
+index 8102bee313c4b301f929b023051a1a2d4881b1cf..eeb00c1d4959197fc2ebe1b381c66fd9184f67b3 100644
+--- a/browser/themes/shared/jar.inc.mn
++++ b/browser/themes/shared/jar.inc.mn
+@@ -17,7 +17,7 @@
+   skin/classic/browser/autocomplete.css                        (../shared/autocomplete.css)
+   skin/classic/browser/blockedSite.css                         (../shared/blockedSite.css)
+   skin/classic/browser/browser-colors.css                      (../shared/browser-colors.css)
+-  skin/classic/browser/browser-shared.css                      (../shared/browser-shared.css)
++* skin/classic/browser/browser-shared.css                      (../shared/browser-shared.css)
+   skin/classic/browser/formautofill-notification.css           (../shared/formautofill-notification.css)
+   skin/classic/browser/identity-credential-notification.css    (../shared/identity-credential-notification.css)
+   skin/classic/browser/light-dark-overrides.css                (../shared/light-dark-overrides.css)
