@@ -12,9 +12,11 @@
   },
   "addons": {
     "ublock": {
+      "platform": "github",
       "id": "uBlock0@raymondhill.net",
-      "platform": "url",
-      "url": "https://github.com/gorhill/uBlock/releases/download/1.62.0/uBlock0_1.62.0.firefox.signed.xpi"
+      "repo": "gorhill/uBlock",
+      "version": "1.62.0",
+      "fileGlob": "uBlock0_*.firefox.signed.xpi"
     }
   },
   "brands": {
