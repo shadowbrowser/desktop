@@ -1,7 +1,7 @@
 {
   "name": "shadow",
   "version": "1.0.0",
-  "description": "Firefox but without tracking and built in adblock by uBlock",
+  "description": "A browser built for beauty, performance and security based on Mozzila's FireFox via foxfork",
   "scripts": {
     "download": "foxfork download",
     "build": "foxfork build",
