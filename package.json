@@ -9,6 +9,7 @@
     "bootstrap": "foxfork bootstrap",
     "import": "foxfork import",
     "start": "foxfork run",
+    "update-addons": "foxfork update-addons",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
