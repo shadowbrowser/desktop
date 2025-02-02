@@ -1,8 +1,8 @@
 {
-  "name": "Praxive",
+  "name": "Scout",
   "vendor": "Jonas F. Franke",
-  "appId": "com.binaryblazer.praxive",
-  "binaryName": "praxive",
+  "appId": "com.scoutbrowser.scout",
+  "binaryName": "scout",
   "version": {
     "product": "firefox",
     "version": "134.0.2"
@@ -20,13 +20,13 @@
   "brands": {
     "stable": {
       "backgroundColor": "#161617",
-      "brandShorterName": "Praxive",
-      "brandShortName": "Praxive Browser",
-      "brandFullName": "Praxive Browser",
+      "brandShorterName": "Scout",
+      "brandShortName": "Scout Browser",
+      "brandFullName": "Scout Browser",
       "release": {
         "displayVersion": "1.0.0",
         "github": {
-          "repo": "binary-blazer/securefox"
+          "repo": "scoutbrowser/desktop"
         },
         "x86": {
           "windowsMar": "windows.mar",
@@ -37,13 +37,13 @@
     },
     "beta": {
       "backgroundColor": "#161617",
-      "brandShorterName": "Praxive",
-      "brandShortName": "Praxive Browser",
-      "brandFullName": "Praxive Browser Beta",
+      "brandShorterName": "Scout",
+      "brandShortName": "Scout Browser",
+      "brandFullName": "Scout Browser Beta",
       "release": {
-        "displayVersion": "1.0.0-b.0",
+        "displayVersion": "1.0.0-b.1",
         "github": {
-          "repo": "binary-blazer/securefox"
+          "repo": "scoutbrowser/desktop"
         },
         "x86": {
           "windowsMar": "windows.mar",
@@ -54,13 +54,13 @@
     },
     "alpha": {
       "backgroundColor": "#161617",
-      "brandShorterName": "Praxive",
-      "brandShortName": "Praxive Browser",
-      "brandFullName": "Praxive Browser Alpha",
+      "brandShorterName": "Scout",
+      "brandShortName": "Scout Browser",
+      "brandFullName": "Scout Browser Alpha",
       "release": {
-        "displayVersion": "1.0.0-a.0",
+        "displayVersion": "1.0.0-a.1",
         "github": {
-          "repo": "binary-blazer/securefox"
+          "repo": "scoutbrowser/desktop"
         },
         "x86": {
           "windowsMar": "windows.mar",
